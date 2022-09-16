@@ -44,7 +44,7 @@
                 &trans      &trans      &trans      &trans   &kp LSFT   &kp Z       &kp X       &kp C      &kp V     &kp B       &kp N       &kp M       &kp CMMA    &kp DOT     &kp FSLH    &kp RET
                 &trans      &trans      &trans      &trans   &kp LCTL   &kp LGUI    &kp LALT    &mo 3      &mo 1     &mo 2       &lt 1 SPC   &lt 1 SPC   &kp LARW    &kp DARW    &kp UARW    &kp RARW    
             >;
-            sensor-bindings = <&inc_dec_kp C_VOL_DN C_VOL_UP &inc_dec_kp LEFT RIGHT>;
+            sensor-bindings = <&inc_dec_kp C_VOL_DN C_VOL_UP>;
         }; 
 
         lower_layer {
@@ -55,7 +55,7 @@
                 &trans      &trans      &trans      &trans      &kp DOLLAR  &kp STAR    &kp NUM_1   &kp NUM_2   &kp NUM_3   &kp PLUS    &kp PIPE    &trans      &trans      &trans      &trans      &trans
                 &trans      &trans      &trans      &trans      &trans      &trans      &trans      &trans      &trans      &trans      &trans      &trans      &trans      &trans      &trans      &trans
             >;
-            sensor-bindings = <&inc_dec_kp LEFT RIGHT &inc_dec_kp C_VOL_DN C_VOL_UP>;
+            sensor-bindings = <&inc_dec_kp LEFT RIGHT>;
         };
 
         raise_layer {
