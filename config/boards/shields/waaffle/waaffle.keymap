@@ -55,7 +55,7 @@
                 &trans      &trans      &trans      &trans      &kp DOLLAR  &kp STAR    &kp NUM_1   &kp NUM_2   &kp NUM_3   &kp PLUS    &kp PIPE    &trans      &trans      &trans      &trans      &trans
                 &trans      &trans      &trans      &trans      &trans      &trans      &trans      &trans      &trans      &trans      &trans      &trans      &trans      &trans      &trans      &trans
             >;
-            sensor-bindings = <&inc_dec_kp RIGHT LEFTT>;
+            sensor-bindings = <&inc_dec_kp RIGHT LEFT>;
         };
 
         raise_layer {
@@ -74,7 +74,7 @@
                 &trans      &trans      &trans      &trans      &reset      &trans           &trans          &trans           &trans            &trans          &trans      &kp NUM_4   &kp NUM_5   &kp NUM_6      &trans      &trans
                 &trans      &trans      &trans      &trans      &trans      &trans           &trans          &trans           &trans            &trans          &trans      &kp NUM_1   &kp NUM_2   &kp NUM_3      &trans      &trans
                 &trans      &trans      &trans      &trans      &trans      &trans           &trans          &trans           &trans            &trans          &trans      &kp NUM_0   &kp NUM_0   &kp DOT        &trans      &trans
-                &trans      &trans      &trans      &trans      &trans      &trans           &trans          &trans           &trans            &trans          &trans      &trans      &trans      &trans      &trans      &trans
+                &trans      &trans      &trans      &trans      &trans      &trans           &trans          &trans           &trans            &trans          &trans      &trans      &trans      &trans         &trans      &trans
             >;
         };
 
